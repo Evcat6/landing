@@ -15,14 +15,23 @@
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
+  transition: 0.15s;
 }
 
 .link.dark {
   color: #000;
 }
 
+.link.dark:hover {
+  color: #000000cc;
+}
+
 .link.light {
   color: #fff;
+}
+
+.link.light:hover {
+  color: #ffffffcc;
 }
 
 .link:hover {
