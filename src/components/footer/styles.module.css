@@ -63,7 +63,7 @@
 }
 
 .subscribe_input_group_input:focus {
-    outline: none;
+  outline: none;
 }
 
 .subscribe_input_group_input::placeholder {

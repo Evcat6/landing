@@ -21,7 +21,10 @@ const Contact = () => {
             </a>
           </p>
           <p className={styles.contact_description}>
-            Ou crie um formulário ao lado que entrem em contato <span className={styles.contact_description_purple} >o mais rápido possível!</span>
+            Ou crie um formulário ao lado que entrem em contato{" "}
+            <span className={styles.contact_description_purple}>
+              o mais rápido possível!
+            </span>
           </p>
           <div className={styles.whatsapp_container}>
             <img src={WhatsApp} />
