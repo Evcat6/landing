@@ -8,10 +8,7 @@ const HamburgerButton = ({ onClick, open }) => {
       {open ? (
         <GrClose className={styles.hamburger_icon} onClick={onClick} />
       ) : (
-        <RxHamburgerMenu
-          className={styles.hamburger_icon}
-          onClick={onClick}
-        />
+        <RxHamburgerMenu className={styles.hamburger_icon} onClick={onClick} />
       )}
     </div>
   );

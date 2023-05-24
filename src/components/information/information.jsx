@@ -4,7 +4,7 @@ import Target from "../../assets/target.svg";
 import Ethereum from "../../assets/ethereum-coin.svg";
 import CreditCard from "../../assets/credit-card.svg";
 import TalkingMan from "../../assets/talking-man.svg";
-import BurgerShape from '../../assets/burger-shape.svg';
+import BurgerShape from "../../assets/burger-shape.svg";
 
 const Information = () => {
   const benefits = [

@@ -1,1 +1,2 @@
-export { ButtonType } from "./button-type";
+export { ButtonType } from "./button-type.enum";
+export { NavBarTheme } from "./nav-bar-theme.enum";

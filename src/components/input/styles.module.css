@@ -1,6 +1,19 @@
-
 .container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7000ff;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ae97cb;
+  border-radius: 8px;
 }

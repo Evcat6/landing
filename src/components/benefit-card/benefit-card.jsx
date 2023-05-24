@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import PlusCircle from '../../assets/plus-circle.svg';
+import PlusCircle from "../../assets/plus-circle.svg";
 
 const BenefitCard = ({ imageSrc, title, description }) => {
   return (

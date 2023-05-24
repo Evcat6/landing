@@ -68,22 +68,38 @@
   letter-spacing: -0.02em;
   font-style: normal;
   text-decoration-line: underline;
-  color: #2B0955;
+  color: #2b0955;
 }
 
 .desc_link {
-    color: #363636;
-    font-weight: 700;
+  color: #363636;
+  font-weight: 700;
 }
 
 .contact_right_side {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    width: 430px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 430px;
 }
 
 .button_container {
-    display: flex;
-    justify-content: end;
+  align-self: flex-end;
+  width: 186px;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 20px 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    height: 860px;
+  }
 }

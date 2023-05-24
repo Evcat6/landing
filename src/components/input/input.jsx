@@ -1,10 +1,15 @@
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
-const Input = ({ type, label, placeholder }) => {
+const Input = ({ type, label, placeholder, required = false }) => {
   return (
-    <div className={styles.container} >
-      <label>{label}:</label>
-      <input type={type} placeholder={placeholder} />
+    <div className={styles.container}>
+      <label className={styles.label}>{label}:</label>
+      <input
+        className={styles.input}
+        type={type}
+        placeholder={placeholder}
+        required={required}
+      />
     </div>
   );
 };

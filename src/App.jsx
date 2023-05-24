@@ -1,5 +1,11 @@
 import "./App.css";
-import { Header, Banner, Information, Contact } from "./components/components";
+import {
+  Header,
+  Banner,
+  Information,
+  Contact,
+  Footer,
+} from "./components/components";
 
 function App() {
   return (
@@ -10,8 +16,9 @@ function App() {
       <main className="container">
         <Banner />
         <Information />
-        <Contact/>
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
