@@ -88,6 +88,11 @@
   width: 186px;
 }
 
+.contact_description_purple {
+  font-weight: 700;
+  color: #7000FF;
+}
+
 @media (max-width: 1280px) {
   .container {
     padding: 20px 120px;

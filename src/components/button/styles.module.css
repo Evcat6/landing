@@ -9,6 +9,7 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.15s;
 }
 
 button.primary {
@@ -16,8 +17,17 @@ button.primary {
   background-color: #fbc508;
 }
 
+button.primary:hover {
+  background-color: #fbc508b3;
+}
+
 button.secondary {
   color: #ffffff;
   background-color: inherit;
   border: 2px solid #fff;
+}
+
+button.secondary:hover {
+  color: #ffffffcc;
+  border: 2px solid #ffffffcc;
 }

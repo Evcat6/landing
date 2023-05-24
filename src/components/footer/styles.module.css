@@ -54,13 +54,16 @@
 }
 
 .subscribe_input_group_input {
-  border: none;
   border: 1px solid #ffffff;
   background-color: inherit;
   height: auto;
   width: 365px;
   padding: 15px;
   border-radius: 6px 0px 0px 6px;
+}
+
+.subscribe_input_group_input:focus {
+    outline: none;
 }
 
 .subscribe_input_group_input::placeholder {
@@ -77,4 +80,5 @@
   font-size: 14px;
   line-height: 21px;
   cursor: pointer;
+  border: 1px solid #ffffff;
 }
