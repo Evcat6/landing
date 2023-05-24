@@ -1,0 +1,62 @@
+.container {
+  height: 450px;
+  width: 100%;
+  background: #2b0955;
+  display: flex;
+  justify-content: space-between;
+  padding: 58px 230px;
+}
+
+.left_part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 88px;
+  color: #fff;
+  width: 570px;
+}
+
+.subtitle {
+  width: 454px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  letter-spacing: -2%;
+}
+
+.subtitle_orange {
+  color: #fbc508;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.right_part {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.business_man_img {
+  position: absolute;
+  bottom: -170px;
+}
+
+.blur {
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  filter: blur(100px);
+  width: 317px;
+  height: 317px;
+  position: absolute;
+  right: 70px;
+}

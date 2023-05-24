@@ -1,0 +1,23 @@
+.container {
+  width: 287px;
+  height: 370px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+}
+
+.description {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 400;
+}

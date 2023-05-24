@@ -1,0 +1,9 @@
+.header_container {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  padding-top: 70px;
+}

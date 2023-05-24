@@ -1,0 +1,39 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  column-gap: 90px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
