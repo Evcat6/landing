@@ -1,12 +1,18 @@
 .container {
   width: 287px;
   height: 370px;
-  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 9px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+
+.img {
+    height: 170px;
+    width: 170px
 }
 
 .title {
@@ -14,10 +20,19 @@
   font-size: 18px;
   line-height: 27px;
   color: #000;
+  text-align: center;
 }
 
 .description {
   color: #363636;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
+}
+
+.plus_circle {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
 }

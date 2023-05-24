@@ -6,4 +6,5 @@
 
 .container {
   padding-top: 70px;
+  overflow: hidden;
 }

@@ -60,3 +60,18 @@
   position: absolute;
   right: 70px;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    height: 900px;
+    padding: 40px;
+  }
+  .title {
+    font-size: 48px;
+    width: 450px;
+  }
+  .subtitle {
+    width: 300px;
+  }
+}

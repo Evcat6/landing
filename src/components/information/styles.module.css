@@ -1,8 +1,9 @@
 .container {
-  padding: 105px 240px;
+  padding: 165px 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 100px;
 }
 
 .benefits_title {
@@ -30,10 +31,106 @@
 
 .benefits_subtitle {
   color: #363636;
-  width: 650px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   letter-spacing: -0.02em;
+}
+
+.benefits_cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.about_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about_left_side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.hashtag_title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #7000ff;
+  text-transform: uppercase;
+}
+
+.about_title {
+  width: 300px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: -0.02em;
+  color: #2b0955;
+}
+
+.about_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #363636;
+  width: 442px;
+}
+
+.about_description_purple {
+  color: #7000ff;
+  font-weight: 700;
+}
+
+.button_container {
+  width: 190px;
+}
+
+.about_right_side {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.business_man_img {
+  position: absolute;
+  top: -15px;
+  right: 150px;
+}
+
+.blur {
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  filter: blur(100px);
+  width: 317px;
+  height: 317px;
+  position: absolute;
+  right: 70px;
+}
+
+.small_burger {
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  width: 65px;
+  height: 65px;
+}
+
+.big_burger {
+  position: absolute;
+  top: -50px;
+  right: -20px;
+  width: 187px;
+  height: 187px;
+}
+
+@media (max-width: 768px) {
+  .benefits_title {
+    font-size: 24px;
+  }
 }
