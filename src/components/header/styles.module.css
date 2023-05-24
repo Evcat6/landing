@@ -9,6 +9,15 @@
   position: relative;
 }
 
+.link {
+  color: #000;
+  transition: 0.15s;
+}
+
+.link:hover {
+  color: #000000cc;
+}
+
 .hamburger_links {
   position: absolute;
   top: 50px;
